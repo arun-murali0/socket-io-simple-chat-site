@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+main h1 {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 5px;
+  margin-right: 5px;
+  width: 390px;
+}
+button {
+  width: 100px;
+  padding: 6px 16px;
+  background-color: rgb(54, 128, 21);
+  color: #fff;
+}
+
+.chat_message {
+  border: 1px solid grey;
+  background-color: rgb(161, 157, 157);
+  color: #333;
+  font-size: 1.3rem;
+  width: 500px;
+  height: 400px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+span {
+  margin-left: 20px;
+  background-color: rgb(255, 179, 38);
+  color: white;
+  font-size: 1rem;
+}
